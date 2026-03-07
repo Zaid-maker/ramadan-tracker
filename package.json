@@ -1,0 +1,22 @@
+{
+  "name": "ramadan-tracker",
+  "version": "1.0.0",
+  "description": "Ramadan prayer times tracker with static page generation for SEO",
+  "main": "generate-pages.js",
+  "scripts": {
+    "generate": "node generate-pages.js",
+    "generate:with-data": "node generate-pages-with-data.js"
+  },
+  "keywords": [
+    "ramadan",
+    "prayer-times",
+    "iftar",
+    "sehri",
+    "islamic",
+    "seo",
+    "static-site-generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}

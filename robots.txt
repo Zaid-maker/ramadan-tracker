@@ -1,0 +1,29 @@
+# Robots.txt for Ramadan Times 2025
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Google Bot - Premium crawling
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Other bots
+User-agent: *
+Allow: /
+Crawl-delay: 2
+
+# Sitemaps
+Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://yourdomain.com/sitemap-cities.xml
+
+# Request rate
+Request-rate: 30/1m
