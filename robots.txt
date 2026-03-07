@@ -22,8 +22,8 @@ Allow: /
 Crawl-delay: 2
 
 # Sitemaps
-Sitemap: https://yourdomain.com/sitemap.xml
-Sitemap: https://yourdomain.com/sitemap-cities.xml
+Sitemap: https://ramadan-tracker-rho.vercel.app/sitemap.xml
+Sitemap: https://ramadan-tracker-rho.vercel.app/sitemap-cities.xml
 
 # Request rate
 Request-rate: 30/1m
