@@ -8,8 +8,8 @@ const OUTPUT_DIR = __dirname; // Output to root, not subfolder
 
 // Function to generate HTML page for a city with better structure
 function generateCityPage(city) {
-  const pageTitle = `${city.name} Ramadan 2025 | Iftar & Sehri Times`;
-  const pageDescription = `Get accurate daily Sehri and Iftar times for Ramadan 2025 in ${city.name}, ${city.country}. Live countdown, prayer timings and Ramadan schedule.`;
+  const pageTitle = `${city.name} Ramadan 2026 | Iftar & Sehri Times`;
+  const pageDescription = `Get accurate daily Sehri and Iftar times for Ramadan 2026 in ${city.name}, ${city.country}. Live countdown, prayer timings and Ramadan schedule.`;
   const canonicalUrl = `https://${DOMAIN}/${city.slug}/`;
   
   // Generate sample rows for 30 days of Ramadan
@@ -37,7 +37,7 @@ function generateCityPage(city) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${pageTitle}</title>
     <meta name="description" content="${pageDescription}">
-    <meta name="keywords" content="iftar time ${city.name}, sehri time ${city.name}, ramadan 2025 ${city.name}, prayer times ${city.name}, ${city.name} ramadan schedule">
+    <meta name="keywords" content="iftar time ${city.name}, sehri time ${city.name}, ramadan 2026 ${city.name}, prayer times ${city.name}, ${city.name} ramadan schedule">
     <meta name="author" content="Ramadan Times">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="${canonicalUrl}">
@@ -55,7 +55,7 @@ function generateCityPage(city) {
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "${city.name} Ramadan Times 2025",
+      "name": "${city.name} Ramadan Times 2026",
       "description": "${pageDescription}",
       "address": {
         "@type": "PostalAddress",
@@ -90,7 +90,7 @@ function generateCityPage(city) {
 </head>
 <body>
     <div class="container">
-        <h1>Ramadan 2025 in ${city.name}</h1>
+        <h1>Ramadan 2026 in ${city.name}</h1>
         <div class="city-info">
             <p><strong>${city.name}, ${city.country}</strong></p>
             <p>📍 Coordinates: ${city.lat.toFixed(4)}°, ${city.lng.toFixed(4)}°</p>
